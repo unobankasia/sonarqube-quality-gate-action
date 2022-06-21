@@ -14,3 +14,6 @@ inputs:
     description: Location of the scanner metadata report file
     required: false
     default: .scannerwork/report-task.txt
+outputs:
+  result:
+    description: The return value of the script
